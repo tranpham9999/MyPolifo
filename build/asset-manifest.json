@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/MyPolifo/static/css/main.455ca6a4.chunk.css",
+    "main.js": "/MyPolifo/static/js/main.97975912.chunk.js",
+    "main.js.map": "/MyPolifo/static/js/main.97975912.chunk.js.map",
+    "runtime-main.js": "/MyPolifo/static/js/runtime-main.5bf784dc.js",
+    "runtime-main.js.map": "/MyPolifo/static/js/runtime-main.5bf784dc.js.map",
+    "static/js/2.d5a131b9.chunk.js": "/MyPolifo/static/js/2.d5a131b9.chunk.js",
+    "static/js/2.d5a131b9.chunk.js.map": "/MyPolifo/static/js/2.d5a131b9.chunk.js.map",
+    "index.html": "/MyPolifo/index.html",
+    "precache-manifest.252431ae1c983c4c05f450f28f205bef.js": "/MyPolifo/precache-manifest.252431ae1c983c4c05f450f28f205bef.js",
+    "service-worker.js": "/MyPolifo/service-worker.js",
+    "static/css/main.455ca6a4.chunk.css.map": "/MyPolifo/static/css/main.455ca6a4.chunk.css.map",
+    "static/js/2.d5a131b9.chunk.js.LICENSE.txt": "/MyPolifo/static/js/2.d5a131b9.chunk.js.LICENSE.txt",
+    "static/media/background.webp": "/MyPolifo/static/media/background.bf989778.webp",
+    "static/media/contact-form.styles.css": "/MyPolifo/static/media/background.e95d0563.webp",
+    "static/media/digital-ocean.svg": "/MyPolifo/static/media/digital-ocean.add23917.svg",
+    "static/media/express.svg": "/MyPolifo/static/media/express.c6bab64b.svg",
+    "static/media/git-icon.svg": "/MyPolifo/static/media/git-icon.1190a19c.svg",
+    "static/media/github.svg": "/MyPolifo/static/media/github.0ff1a6f0.svg",
+    "static/media/heroku.svg": "/MyPolifo/static/media/heroku.b38ff61a.svg",
+    "static/media/javascript.svg": "/MyPolifo/static/media/javascript.2d2e31cc.svg",
+    "static/media/mongodb.svg": "/MyPolifo/static/media/mongodb.2985235d.svg",
+    "static/media/mssql.svg": "/MyPolifo/static/media/mssql.54d7bddc.svg",
+    "static/media/myAvatar.jpg": "/MyPolifo/static/media/myAvatar.88549751.jpg",
+    "static/media/nestjs.svg": "/MyPolifo/static/media/nestjs.943e52fd.svg",
+    "static/media/nodejs.svg": "/MyPolifo/static/media/nodejs.a1231528.svg",
+    "static/media/slide1.webp": "/MyPolifo/static/media/slide1.8bce7aef.webp",
+    "static/media/slide2.webp": "/MyPolifo/static/media/slide2.7256f309.webp",
+    "static/media/slide3.webp": "/MyPolifo/static/media/slide3.8e5b87b6.webp",
+    "static/media/typescript.svg": "/MyPolifo/static/media/typescript.3de182d2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5bf784dc.js",
+    "static/js/2.d5a131b9.chunk.js",
+    "static/css/main.455ca6a4.chunk.css",
+    "static/js/main.97975912.chunk.js"
+  ]
+}
