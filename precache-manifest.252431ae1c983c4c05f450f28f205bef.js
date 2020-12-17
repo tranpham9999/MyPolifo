@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a986087173b30e54c4e968e2d74422df",
+    "revision": "02fa07d32633ae55a0de5fb5e8e5d0a7",
     "url": "/MyPolifo/index.html"
   },
   {
-    "revision": "bb9644033787f38b42de",
+    "revision": "83f52813b66f6936f36c",
     "url": "/MyPolifo/static/css/main.455ca6a4.chunk.css"
   },
   {
-    "revision": "2360862ec505131d4caa",
-    "url": "/MyPolifo/static/js/2.f3176d60.chunk.js"
+    "revision": "35951144bd040997be52",
+    "url": "/MyPolifo/static/js/2.d5a131b9.chunk.js"
   },
   {
     "revision": "772341699553daad6bcd7d8925a6b28f",
-    "url": "/MyPolifo/static/js/2.f3176d60.chunk.js.LICENSE.txt"
+    "url": "/MyPolifo/static/js/2.d5a131b9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bb9644033787f38b42de",
-    "url": "/MyPolifo/static/js/main.527363cc.chunk.js"
+    "revision": "83f52813b66f6936f36c",
+    "url": "/MyPolifo/static/js/main.97975912.chunk.js"
   },
   {
-    "revision": "ac98acfa06275d2fb6c6",
-    "url": "/MyPolifo/static/js/runtime-main.3e75016f.js"
+    "revision": "3caf17f94e08b89e1361",
+    "url": "/MyPolifo/static/js/runtime-main.5bf784dc.js"
   },
   {
     "revision": "bf989778565c49da91f9e0ef13dbdc5c",
