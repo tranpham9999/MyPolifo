@@ -1,27 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a193e36e901bdbca784d981b18d35e88",
+    "revision": "df7e9b7f8b4c8131a2efd89ee85259be",
     "url": "/trannguyenthanhpham/index.html"
   },
   {
-    "revision": "f11922d0a1a4d3700159",
-    "url": "/trannguyenthanhpham/static/css/main.7e9fab70.chunk.css"
+    "revision": "42f5ce75e7419f1ed533",
+    "url": "/trannguyenthanhpham/static/css/main.2d868a5d.chunk.css"
   },
   {
-    "revision": "50ba42d1eb1a44531c11",
-    "url": "/trannguyenthanhpham/static/js/2.40e9cd45.chunk.js"
+    "revision": "601432f23bc32adf035e",
+    "url": "/trannguyenthanhpham/static/js/2.80e2d449.chunk.js"
   },
   {
     "revision": "772341699553daad6bcd7d8925a6b28f",
-    "url": "/trannguyenthanhpham/static/js/2.40e9cd45.chunk.js.LICENSE.txt"
+    "url": "/trannguyenthanhpham/static/js/2.80e2d449.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f11922d0a1a4d3700159",
-    "url": "/trannguyenthanhpham/static/js/main.24025723.chunk.js"
+    "revision": "42f5ce75e7419f1ed533",
+    "url": "/trannguyenthanhpham/static/js/main.b40ff36f.chunk.js"
   },
   {
     "revision": "b07ef0c170c4cce33293",
     "url": "/trannguyenthanhpham/static/js/runtime-main.768d86c7.js"
+  },
+  {
+    "revision": "59aad9e650358e137f3ba0154904ad1a",
+    "url": "/trannguyenthanhpham/static/media/Chotroi_Androidapp.59aad9e6.png"
+  },
+  {
+    "revision": "44a09df908231e8cc8946f285c0f21c5",
+    "url": "/trannguyenthanhpham/static/media/Website_Shoedee.44a09df9.png"
+  },
+  {
+    "revision": "24de90c8156ae34c94d0e1cadbedeeae",
+    "url": "/trannguyenthanhpham/static/media/angular.24de90c8.svg"
   },
   {
     "revision": "bf989778565c49da91f9e0ef13dbdc5c",
@@ -52,6 +64,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/trannguyenthanhpham/static/media/heroku.b38ff61a.svg"
   },
   {
+    "revision": "13a096531e50277a3fb17460c39db221",
+    "url": "/trannguyenthanhpham/static/media/java.13a09653.svg"
+  },
+  {
     "revision": "2d2e31cc63a96c7e6044f52d30fd21b9",
     "url": "/trannguyenthanhpham/static/media/javascript.2d2e31cc.svg"
   },
@@ -74,6 +90,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a123152868245dee71c441124a98ac3e",
     "url": "/trannguyenthanhpham/static/media/nodejs.a1231528.svg"
+  },
+  {
+    "revision": "70b40b542639e3a22b043c3d639b2bd5",
+    "url": "/trannguyenthanhpham/static/media/php.70b40b54.svg"
   },
   {
     "revision": "8bce7aef886c3872c218e0e6ef8bdccb",
