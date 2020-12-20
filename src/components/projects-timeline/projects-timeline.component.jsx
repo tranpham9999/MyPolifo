@@ -2,31 +2,38 @@ import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
 
 // projects
-import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
-import L_MernTipCalc from "../../assets/img/projects/mern_tip_calc.webp";
-import L_GetGitHubInfo from "../../assets/img/projects/get_github_info.webp";
-import L_SmartBrain from "../../assets/img/projects/brain.webp";
-import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
-import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
-import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
+// import L_ReactToDoList from "../../assets/img/projects/React_ToDo_List.webp";
+// import L_MernTipCalc from "../../assets/img/projects/mern_tip_calc.webp";
+// import L_GetGitHubInfo from "../../assets/img/projects/get_github_info.webp";
+// import L_SmartBrain from "../../assets/img/projects/brain.webp";
+// import L_RoboFriends from "../../assets/img/projects/Robofriends.webp";
+// import L_ProductHuntClone from "../../assets/img/projects/product_hunt_clone.webp";
+// import L_PortfolioUsingDjango from "../../assets/img/projects/portfolioUsingDjango.webp";
+import L_ChotroiApp from "../../assets/img/projects/Chotroi_Androidapp.png";
+import L_WebsiteShoedee from "../../assets/img/projects/Website_Shoedee.png";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 
 // skills
-import L_REACT from "../../assets/img/skills/react.svg";
+// import L_REACT from "../../assets/img/skills/react.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import L_EXPRESS from "../../assets/img/skills/express.svg";
-import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
+// import L_POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 import L_MONGODB from "../../assets/img/skills/mongodb.svg";
 import Image from "react-bootstrap/Image";
-import L_REDUX from "../../assets/img/skills/redux.svg";
-import L_HTML5 from "../../assets/img/skills/html-5.svg";
-import L_CSS3 from "../../assets/img/skills/css3.svg";
-import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
-import L_DJANGO from "../../assets/img/skills/django.svg";
-import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
-import L_GIT from "../../assets/img/skills/github-api.svg";
-import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
+// import L_REDUX from "../../assets/img/skills/redux.svg";
+// import L_HTML5 from "../../assets/img/skills/html-5.svg";
+// import L_CSS3 from "../../assets/img/skills/css3.svg";
+// import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
+// import L_DJANGO from "../../assets/img/skills/django.svg";
+// import L_DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
+// import L_GIT from "../../assets/img/skills/github-api.svg";
+// import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
+import L_JAVA from "../../assets/img/skills/java.svg";
+import L_PHP from "../../assets/img/skills/php.svg";
+import L_ANGULAR from "../../assets/img/skills/angular.svg"
+import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg";
+import L_NESTJS from "../../assets/img/skills/nestjs.svg";
 
 
 import "./projects-timeline.styles.css";
@@ -37,13 +44,13 @@ const TimeLine = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline>
         <Events>
-        {/* Project: Todo List With MUI */}
+        {/* Project: Chotroi Android app */}
         <ImageEvent
-            date="01/10/2020"
+            date="2019"
             className="text-center"
-            text="React ToDo App"
-            src={L_ReactToDoList}
-            alt="React ToDo App"
+            text="Android Chotroi App"
+            src={L_ChotroiApp}
+            alt="Android Chotroi App"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -59,12 +66,12 @@ const TimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a Todo App created with React and Material UI that keeps a track of your Todos
+                        <strong>Description:</strong> This is the app that helps people sell or buy technological as phone, laptop, camera from right on your phone.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Keeps track of your Todos</li>
-                          <li>Powered by React and Material UI</li>
+                
+                          <li>Powered by Android 9.0 and Java</li>
                           <li>Respoisive Design</li>
                         </ul>
                         <hr />
@@ -73,132 +80,23 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
+                                src={L_JAVA}
+                                alt="Java"
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_MATERIALUI}
-                                alt="Material-UI"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Material-UI
-                            </span>
-                          </li>
-                          
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://akjha96.github.io/Todo-List-React/"
-                  target="_blank"
-                >
-                  SEE LIVE
-                </UrlButton>
-                <UrlButton
-                  href="https://github.com/akjha96/Todo-List-React"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-                <UrlButton
-                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-materialui-fun-activity-6716765686963826688-GIpZ"
-                  target="_blank"
-                >
-                  WATCH VIDEO
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
-
-{/* Project: MERN Tip Calculator */}
-<ImageEvent
-            date="16/09/2020"
-            className="text-center"
-            text="MERN Tip Calculator"
-            src={L_MernTipCalc}
-            alt="MERN Tip Calculator"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> This app calculates Tip for the amount entered and percentage of tip to be given.
-                        It uses MERN stack build to acomplish the same.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Enter amount upto your desire</li>
-                          <li>Real-time API calls with Backend features</li>
-                          <li>Styled with  Material-UI</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
+                              Java
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
                                 src={L_NODE_JS}
-                                alt="Node.js"
+                                alt="Nodejs"
                                 rounded
-                                className="image-style1 m-1"
+                                className="image-style m-1"
                               ></Image>{" "}
-                              Node.js
+                              Nodejs
                             </span>
                           </li>
                           <li>
@@ -215,25 +113,15 @@ const TimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_MONGODB}
-                                alt="MongoDB"
+                                src={L_PHP}
+                                alt="PHP"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              MongoDB
+                              PHP
                             </span>
                           </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_MATERIALUI}
-                                alt="Material-UI"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Material-UI
-                            </span>
-                          </li>
+                          
                         </ul>
                       </Card.Body>
                     </Accordion.Collapse>
@@ -241,14 +129,20 @@ const TimeLine = () => {
                 </Accordion>
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://github.com/akjha96/MernTipCaculator-FrontEnd"
+                {/* <UrlButton
+                  href="https://akjha96.github.io/Todo-List-React/"
                   target="_blank"
                 >
-                  SOURCE CODE
+                  SEE LIVE
+                </UrlButton> */}
+                <UrlButton
+                  href="https://github.com/tranpham9999/Chotroi"
+                  target="_blank"
+                >
+                  SOURCE CODE 
                 </UrlButton>
                 <UrlButton
-                  href="https://www.linkedin.com/posts/anand-kumar-jha-745798a4_react-nodejs-expressjs-activity-6712281977107603456-oH6t"
+                  href="https://www.youtube.com/watch?v=SVJOc_HnLy8&feature=youtu.be"
                   target="_blank"
                 >
                   WATCH VIDEO
@@ -257,7 +151,110 @@ const TimeLine = () => {
             </div>
           </ImageEvent>
 
-          {/* Project: Get GitHub Info */}
+
+{/* Project: Website shoedee.tk */}
+<ImageEvent
+            date="2020"
+            className="text-center"
+            text="Sprots Shoes Website"
+            src={L_WebsiteShoedee}
+            alt="Sprots Shoes Website"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is the website sell many sports shoes.
+                        I am a Back-end Developer in this project.
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Login via Facebook and Google</li>
+                          <li>Sync cart when you're not login</li>
+                          <li>CMS for manager</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_ANGULAR}
+                                alt="Angular"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Angular
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_TYPESCRIPT}
+                                alt="Typescript"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Typescript
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_NESTJS}
+                                alt="Nestjs"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Nestjs
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_MONGODB}
+                                alt="MongoDB"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              MongoDB
+                            </span>
+                          </li>
+                          
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://github.com/CaptainKO/shoedee"
+                  target="_blank"
+                >
+                  SOURCE CODE
+                </UrlButton>
+                <UrlButton
+                  href="https://drive.google.com/file/d/1epLdQAOk9LqStX-6aLULRbqxFYtfubMa/view"
+                  target="_blank"
+                >
+                  DEMO
+                </UrlButton>
+              </div>
+            </div>
+          </ImageEvent>
+
+          {/* Project: Get GitHub Info
           <ImageEvent
             date="19/07/2020"
             className="text-center"
@@ -362,9 +359,9 @@ const TimeLine = () => {
                 </UrlButton>
               </div>
             </div>
-          </ImageEvent>
+          </ImageEvent> */}
 
-          {/* Project: Smart Brain */}
+          {/* Project: Smart Brain
           <ImageEvent
             date="21/01/2020"
             className="text-center"
@@ -488,7 +485,7 @@ const TimeLine = () => {
 
           {/* Project: RoboFriends */}
 
-          <ImageEvent
+          {/* <ImageEvent
             date="14/01/2020"
             className="text-center"
             text="RoboFriends"
@@ -601,7 +598,7 @@ const TimeLine = () => {
 
           {/* Project: Product_Hunt_Clone */}
 
-          <ImageEvent
+          {/* <ImageEvent
             date="15/12/2019"
             className="text-center"
             text="Product Hunt Clone"
@@ -707,10 +704,10 @@ const TimeLine = () => {
                 </UrlButton>
               </div>
             </div>
-          </ImageEvent>
+          </ImageEvent>  */}
 
           {/* Project: Portfolio using Django */}
-          <ImageEvent
+          {/* <ImageEvent
             date="07/12/2019"
             className="text-center"
             text="Portfolio using Django"
@@ -838,7 +835,7 @@ const TimeLine = () => {
                 </UrlButton>
               </div>
             </div>
-          </ImageEvent>
+          </ImageEvent>  */}
         </Events>
       </Timeline>
     </div>

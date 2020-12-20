@@ -5,7 +5,7 @@ import MyTitleMessage from "./components/title-message/title-message.component";
 import About from "./pages/about/about.component";
 import Skills from "./pages/skills/skills.component";
 import Container from "react-bootstrap/Container";
-// import TimeLine from "./components/projects-timeline/projects-timeline.component";
+import TimeLine from "./components/projects-timeline/projects-timeline.component";
 // import Experience from "./pages/experience/experience.component";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
@@ -59,12 +59,12 @@ const App = () => {
           </Fade>
         </Container>
       </div> */}
-      {/* <Container className="container-box rounded">
+      <Container className="container-box rounded">
         <Slide bottom duration={500}>
           <hr />
           <TimeLine />
         </Slide>
-      </Container> */}
+      </Container>
       <Container className="container-box rounded">
         <Fade duration={500}>
           <hr />
